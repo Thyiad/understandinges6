@@ -4,7 +4,7 @@ The JavaScript core language features are defined in a standard called ECMA-262.
 
 # 介绍
 
-JavaScript语言的核心特性是由一个叫ECMA-262的标准所规定的。ECMA-262把它所定义的语言称之为ECMAScript。
+JavaScript语言的核心特性是由ECMA-262标准所制定的，ECMA-262中称之为ECMAScript。浏览器中的JavaScript以及服务端的Node.js实际上就是ECMAScript的一个超集，在ECMAScript的基础上添加很多额外的功能，核心仍然是ECMAScript。所以ECMA-262对于JavaScript来说是相当重要的，这本书详细介绍了最近的主要更新：ECMAScript 6。
 
 ## The Road to ECMAScript 6
 
@@ -19,6 +19,20 @@ In 2008, Brendan Eich, the creator of JavaScript, announced that TC-39 would foc
 ECMAScript 3.1 was eventually standardized as the fifth edition of ECMA-262, also described as ECMAScript 5. The committee never released an ECMAScript 4 standard to avoid confusion with the now-defunct effort of the same name. Work then began on ECMAScript Harmony, with ECMAScript 6 being the first standard released in this new "harmonious" spirit.
 
 ECMAScript 6 reached feature complete status in 2015 and was formally dubbed "ECMAScript 2015." (But this text still refers to it as ECMAScript 6, the name most familiar to developers.) The features vary widely from completely new objects and patterns to syntax changes to new methods on existing objects. The exciting thing about ECMAScript 6 is that all of its changes are geared toward solving problems that developers actually face.
+
+## ECMAScript6 漫漫之路
+
+在 2007 年的时候，JavaScript正处于一个十字路口。Ajax的流行宣告 web 跨入一个崭新的时代，然而JavaScript自从在1999年发布第三版后已经近10年没有更新过了。TC-39（ECMA的第39号技术专家委员会，Technical Committee 39，简称TC39），制定了ECMAScript 4。ECMAScript 4的变化非常大，新语法、模块化、类、继承、私有变量及注解（比如Java中的@override）等等。
+
+正因为它的变化太大，所以造成了分歧，部分成员认为ECMAScript 4的胃口太大了，一个版本中改动这么大是不切实际的。于是以Yahoo, Google及Microsoft为代表的小组创建了一个可选的版本：ECMAScript 3.1。叫做3.1旨在为了说明它只在现有标准上做了小部分修改。
+
+3.1 只引进了很少的语法改变，主要的改变有：高级属性定义、原生JSON支持和为已存在对象添加方法。尽管早期努力尝试过折中3.1和4，但是由于两者相差过大，最终还是失败了。
+
+在2008年的时候，JavaScript的创建者 Brendan Eich，宣布TC-39将集中精力去制定ECMAScript3.1标准，ECMAScript4的语法和特性将放到下一个版本中再，整个项目被命名为“和谐”。
+
+ECMAScript 3.1 最终成为了ECMA-262的第五版，也被称为ECMAScript 5。同时为了避免混淆，ECMAScript 4就这样被跳过了。和谐项目制定的第一个标准就是ECMAScript 6。
+
+ECMAScript 6收集了截至2015年所完成的特性，正式名被称为"ECMAScript 2015."（但是本文中仍然叫做ECMAScript 6，因为这个名字对开发者来说更为熟悉）
 
 ## About This Book
 
